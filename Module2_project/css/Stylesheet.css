@@ -1,0 +1,141 @@
+* {
+	font-family: Balsamiq sans;
+}
+
+h2 {
+	text-align: center;
+}
+@media (min-width: 992px) {
+	.row {
+		width : 100%; 
+	}
+
+	.Box {
+		width : 33.33%;
+		float: left;
+
+	}
+
+	.content {
+		background-color: #999999;
+		border: solid 1px black;
+		margin: 10px;
+
+	}
+
+	.para {
+    position: relative;
+    /* bottom: 10%; */
+    /* left: 80%; */
+    background-color: white;
+    border: 1px solid black;
+    width: 30%;
+    /* height: 0px; */
+    padding: 4px 0px 4px 60px;
+    margin: auto 0px auto auto;
+    /* overflow: auto;*/
+    font
+	}
+
+}
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.row {
+		width : 100%; 
+	}
+
+	.Box {
+		width : 50%;
+		float: left;
+
+	}
+
+	.content {
+		background-color: #999999;
+		border: solid 1px black;
+		margin: 10px;
+
+	}
+
+	.Box1 {
+		width: 100%;
+	} 
+
+	.row div:nth-child(3) p:nth-child(1) {
+		/* background-color: green; */
+		position: relative;
+		width: 10%;
+	}
+
+
+	.para {
+    position: relative;
+    /* bottom: 10%; */
+    /* left: 80%; */
+    background-color: white;
+    border: 1px solid black;
+    width: 25%;
+    /* height: 0px; */
+    padding: 4px 0px 4px 60px;
+    margin: auto 0px auto auto;
+    /* overflow: auto;*/
+	}
+}
+
+
+@media (max-width: 767px) {
+	.row {
+		width : 100%; 
+	}
+
+	.Box {
+		width : 100%;
+
+	}
+
+	.content {
+		background-color: #999999;
+		border: solid 1px black;
+		margin: 10px;
+
+	}
+
+	.para {
+    position: relative;
+    /* bottom: 10%; */
+    /* left: 80%; */
+    background-color: white;
+    border: 1px solid black;
+    width: 15%;
+    /* height: 0px; */
+    padding: 4px 0px 4px 60px;
+    margin: auto 0px auto auto;
+    /* overflow: auto;*/
+	}
+}
+
+
+
+
+	#p1 {
+		background-color: #b48484;
+		font-size: 20px;
+		color: black;
+	}
+
+	#p2 {
+		background-color: #c14543;
+		font-size: 20px;
+		color: white;
+	}
+
+	#p3 {
+		background-color: #e5d198;
+		font-size: 20px;
+		color: black;
+	}
+
+	.p4 {
+		margin: 5px 10px;
+	}
